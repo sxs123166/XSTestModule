@@ -1,0 +1,6 @@
+framework module XSTestModule {
+  umbrella header "XSTestModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

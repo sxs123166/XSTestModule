@@ -18,15 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  XS Test
                        DESC
 
   s.homepage         = 'https://github.com/beifengchuiluoyanlei/XSTestModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'beifengchuiluoyanlei' => '1752440588@qq.com' }
-  s.source           = { :git => 'https://github.com/beifengchuiluoyanlei/XSTestModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/sxs123166/XSTestModule.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 

@@ -1,0 +1,16 @@
+PODS:
+  - XSTestModule (0.1.0)
+
+DEPENDENCIES:
+  - XSTestModule (from `../`)
+
+EXTERNAL SOURCES:
+  XSTestModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XSTestModule: c911203857f2ff920ee78cc62847cf955c46c959
+
+PODFILE CHECKSUM: 4f8f2a1811dba596b313464baabf9c6a1f462296
+
+COCOAPODS: 1.14.3

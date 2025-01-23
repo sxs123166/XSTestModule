@@ -1,0 +1,22 @@
+{
+  "name": "XSTestModule",
+  "version": "0.1.0",
+  "summary": "A short description of XSTestModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/beifengchuiluoyanlei/XSTestModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "beifengchuiluoyanlei": "1752440588@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/beifengchuiluoyanlei/XSTestModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XSTestModule/Classes/**/*"
+}
