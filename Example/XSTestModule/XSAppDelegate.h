@@ -1,0 +1,15 @@
+//
+//  XSAppDelegate.h
+//  XSTestModule
+//
+//  Created by beifengchuiluoyanlei on 01/23/2025.
+//  Copyright (c) 2025 beifengchuiluoyanlei. All rights reserved.
+//
+
+@import UIKit;
+
+@interface XSAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
