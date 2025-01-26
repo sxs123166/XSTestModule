@@ -6,6 +6,7 @@
 //
 
 #import "UIImage+XSTestModule.h"
+#import "NSBundle+XSTestModule.h"
 
 @implementation UIImage(XSTestModule)
 

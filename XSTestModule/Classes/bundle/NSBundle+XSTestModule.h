@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSBundle(XSTestModule)
 
-@property(class, readonly) NSBundle XSTestModuleBundle;
+@property(class, readonly) NSBundle *XSTestModuleBundle;
 
 @end
 
