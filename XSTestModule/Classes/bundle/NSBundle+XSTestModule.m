@@ -20,7 +20,7 @@
         return _bundle;
     }
     
-    // 动态库：图片所有资源放在 XMAGroup.framework 目录下
+    // 动态库：图片所有资源放在 XSTestModule.framework 目录下
     // 静态库：所有资源在 mainBundle/XMAGroup.bundle 目录下
     @synchronized ([XSTestModuleBundle class]) {
         if(_bundle == nil) {
