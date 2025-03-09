@@ -71,6 +71,6 @@ Pod::Spec.new do |s|
   s.addSubspec("A", [])
   s.addSubspec("B", [])
   s.addSubspec("bundle", [])
-  s.dependency("Reachability", [])
+  s.addSubspec("Reachability", [])
 
 end
