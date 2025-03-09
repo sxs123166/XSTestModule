@@ -59,15 +59,18 @@ Pod::Spec.new do |s|
   s.subspec "ATest" do |ss|
     ss.dependency  "XSTestModule/A"
     ss.dependency  "XSTestModule/bundle"
-  end 
+    ss.dependency  "XSTestModule/Reachability"
+  end
   
   s.subspec "BTest" do |ss|
     ss.dependency  "XSTestModule/B"
     ss.dependency  "XSTestModule/bundle"
-  end  
+    ss.dependency  "XSTestModule/Reachability"
+  end
 
   s.addSubspec("A", [])
   s.addSubspec("B", [])
   s.addSubspec("bundle", [])
+  s.dependency("Reachability", [])
 
 end
